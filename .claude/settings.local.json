@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git -C /c/Users/User/OneDrive/Desktop/canva-clone/canva-clone_v2 status)",
+      "Bash(git -C /c/Users/User/OneDrive/Desktop/canva-clone/canva-clone_v2 add -A)",
+      "Bash(git -C /c/Users/User/OneDrive/Desktop/canva-clone/canva-clone_v2 commit -m \"Initial commit\")"
+    ]
+  }
+}

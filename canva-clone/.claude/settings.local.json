@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /c/Users/User/OneDrive/Desktop/canva-clone/canva-clone/src/features/editor/components/*.tsx)",
+      "Bash(xargs wc:*)",
+      "Bash(rm -rf \"/c/Users/User/OneDrive/Desktop/canva-clone/canva-clone_v2\")",
+      "Bash(cp -r \"/c/Users/User/OneDrive/Desktop/canva-clone/canva-clone\" \"/c/Users/User/OneDrive/Desktop/canva-clone/canva-clone_v2\")",
+      "Read(//c/Users/User/OneDrive/Desktop/canva-clone/**)",
+      "Bash(cmd.exe /c \"rmdir /s /q canva-clone_v2\")",
+      "Bash(rsync -a --exclude='node_modules' --exclude='.next' --exclude='.git' \"/c/Users/User/OneDrive/Desktop/canva-clone/canva-clone/\" \"/c/Users/User/OneDrive/Desktop/canva-clone/canva-clone_v2/\")",
+      "Bash(cmd.exe /c \"robocopy . ..\\\\canva-clone_v2 /E /XD node_modules .next .git /NFL /NDL /NJH /NJS /NC /NS /NP\")",
+      "Bash(cmd.exe /c \"powershell -Command \\\\\"Copy-Item -Path 'C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone\\\\*' -Destination 'C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2' -Recurse -Exclude 'node_modules','.next','.git' -Force\\\\\"\")",
+      "Bash(cmd.exe /c \"rmdir /s /q C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2\")",
+      "Bash(cmd.exe /c \"rmdir /s /q C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2\\\\canva-clone\")",
+      "Bash(cmd.exe /c \"rd /s /q \\\\\"C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2\\\\\"\")",
+      "Bash(cmd.exe /c \"powershell -Command \\\\\"Remove-Item -Path 'C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2' -Recurse -Force -ErrorAction SilentlyContinue\\\\\"\")",
+      "Bash(cmd.exe /c \"xcopy /E /I /Q C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone\\\\src C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2\\\\src\")",
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\canva-clone\\\\canva-clone_v2\\\\src\")",
+      "Bash(cmd.exe /c \"move canva-clone_v2_temp canva-clone_v2_final\")"
+    ]
+  }
+}
