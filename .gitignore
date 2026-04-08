@@ -12,7 +12,17 @@ out/
 
 # debug
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# claude code
+.claude/
+
+# IDE
+.vscode/
+.idea/
 
 # misc
 .DS_Store
 *.tgz
+Thumbs.db
